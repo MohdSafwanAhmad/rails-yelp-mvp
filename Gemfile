@@ -29,6 +29,9 @@ gem "jbuilder"
 # Forms made easy for Rails! [https://github.com/heartcombo/simple_form]
 gem "simple_form"
 
+# Faker
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

@@ -1,0 +1,9 @@
+<div class="row justify-content-center">
+    <div class="card-header bg-primary text-white">
+        <h4 class="mb-0"><%= @restaurant.new_record? ? "Add New Restaurant" : "Edit Restaurant" %></h4>
+    </div>
+    <%= render "form", restaurant: @restaurant %>
+    <div class="mt-3">
+        <%= link_to "← Back to Restaurants", restaurants_path, class: "btn btn-secondary" %>
+    </div>
+</div>
